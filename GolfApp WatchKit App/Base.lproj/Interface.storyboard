@@ -1,14 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14256" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="20037" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14243"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14219"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="20006"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="GolfApp_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="1" alignment="left" layout="vertical" id="XKs-UU-2nA" userLabel="Container">
+                            <items>
+                                <group width="1" height="50" alignment="left" id="Byu-3W-94E">
+                                    <items>
+                                        <label width="0.29999999999999999" height="49" alignment="left" text="-" id="CTY-7d-kQz">
+                                            <color key="textColor" red="0.1411764324" green="0.1411764324" blue="0.1411764324" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" type="system" pointSize="44"/>
+                                        </label>
+                                        <label width="0.40000000000000002" height="48" alignment="left" text="-" textAlignment="center" id="Zdr-FM-LZY">
+                                            <fontDescription key="font" type="system" pointSize="56"/>
+                                        </label>
+                                        <label width="0.29999999999999999" height="49" alignment="left" text="-" textAlignment="right" id="1Cq-Qc-kKm">
+                                            <color key="textColor" red="0.28281539680000001" green="0.28659111259999998" blue="0.29334804419999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" type="system" pointSize="44"/>
+                                        </label>
+                                    </items>
+                                </group>
+                                <group width="1" height="0.050000000000000003" alignment="left" id="qMZ-YF-3BK"/>
+                                <button width="1" alignment="left" title="Stroke" id="KDG-Rd-3ef">
+                                    <gestureRecognizers>
+                                        <longPressGestureRecognizer id="DcQ-PL-8AR">
+                                            <connections>
+                                                <action selector="storeLongPush:" destination="AgC-eL-Hgc" id="gPW-r4-zz9"/>
+                                            </connections>
+                                        </longPressGestureRecognizer>
+                                    </gestureRecognizers>
+                                    <color key="backgroundColor" red="0.1411764324" green="0.1411764324" blue="0.1411764324" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" type="system" pointSize="17"/>
+                                    <connections>
+                                        <action selector="strokeClicked" destination="AgC-eL-Hgc" id="5aL-Xn-BLd"/>
+                                    </connections>
+                                </button>
+                                <group width="1" height="0.00050000000000000001" alignment="left" id="lxW-co-eHE"/>
+                                <group width="1" alignment="left" id="pUx-Hc-2Gu">
+                                    <items>
+                                        <button width="1" alignment="left" title="Putt" id="JQ6-hD-vpO">
+                                            <gestureRecognizers>
+                                                <longPressGestureRecognizer id="Gyk-Jh-b9j">
+                                                    <connections>
+                                                        <action selector="puttLongPush:" destination="AgC-eL-Hgc" id="sTk-Kf-MBl"/>
+                                                    </connections>
+                                                </longPressGestureRecognizer>
+                                            </gestureRecognizers>
+                                            <color key="backgroundColor" red="0.28281539680000001" green="0.28659111259999998" blue="0.29334804419999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" type="system" pointSize="17"/>
+                                            <connections>
+                                                <action selector="puttClicked" destination="AgC-eL-Hgc" id="A6h-qq-kMj"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                            </items>
+                            <gestureRecognizers>
+                                <swipeGestureRecognizer direction="2" id="bsp-Zk-8u1">
+                                    <connections>
+                                        <action selector="swiped:" destination="AgC-eL-Hgc" id="DXi-yv-Ztf"/>
+                                    </connections>
+                                </swipeGestureRecognizer>
+                            </gestureRecognizers>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="putLabel" destination="1Cq-Qc-kKm" id="Txg-UZ-KKr"/>
+                        <outlet property="strokeLabel" destination="CTY-7d-kQz" id="kFc-Pt-M5V"/>
+                        <outlet property="totalLabel" destination="Zdr-FM-LZY" id="c3r-4w-LBN"/>
+                    </connections>
+                </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
@@ -27,21 +96,21 @@
                     </connections>
                 </notificationController>
             </objects>
-            <point key="canvasLocation" x="220" y="643"/>
+            <point key="canvasLocation" x="206" y="629"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="GolfApp_WatchKit_App" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="468" y="643"/>
+            <point key="canvasLocation" x="563" y="656"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="Niz-AI-uX2">
             <objects>
-                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="GolfApp_WatchKit_App" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="468" y="345"/>
+            <point key="canvasLocation" x="521" y="338"/>
         </scene>
     </scenes>
 </document>
