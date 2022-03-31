@@ -9,7 +9,7 @@
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="GolfApp_WatchKit_App" customModuleProvider="target">
+                <controller fullBounds="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="GolfApp_WatchKit_App" customModuleProvider="target">
                     <items>
                         <group width="1" height="1" alignment="left" layout="vertical" id="XKs-UU-2nA" userLabel="Container">
                             <items>
@@ -17,19 +17,18 @@
                                     <items>
                                         <label width="0.29999999999999999" height="49" alignment="left" text="-" id="CTY-7d-kQz">
                                             <color key="textColor" red="0.1411764324" green="0.1411764324" blue="0.1411764324" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <fontDescription key="font" type="system" pointSize="44"/>
+                                            <fontDescription key="font" type="system" pointSize="38"/>
                                         </label>
                                         <label width="0.40000000000000002" height="48" alignment="left" text="-" textAlignment="center" id="Zdr-FM-LZY">
-                                            <fontDescription key="font" type="system" pointSize="56"/>
+                                            <fontDescription key="font" type="system" pointSize="50"/>
                                         </label>
                                         <label width="0.29999999999999999" height="49" alignment="left" text="-" textAlignment="right" id="1Cq-Qc-kKm">
                                             <color key="textColor" red="0.28281539680000001" green="0.28659111259999998" blue="0.29334804419999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <fontDescription key="font" type="system" pointSize="44"/>
+                                            <fontDescription key="font" type="system" pointSize="38"/>
                                         </label>
                                     </items>
                                 </group>
-                                <group width="1" height="0.050000000000000003" alignment="left" id="qMZ-YF-3BK"/>
-                                <button width="1" alignment="left" title="Stroke" id="KDG-Rd-3ef">
+                                <button width="1" height="44" alignment="left" title="Stroke" id="KDG-Rd-3ef">
                                     <gestureRecognizers>
                                         <longPressGestureRecognizer id="DcQ-PL-8AR">
                                             <connections>
@@ -46,7 +45,7 @@
                                 <group width="1" height="0.00050000000000000001" alignment="left" id="lxW-co-eHE"/>
                                 <group width="1" alignment="left" id="pUx-Hc-2Gu">
                                     <items>
-                                        <button width="1" alignment="left" title="Putt" id="JQ6-hD-vpO">
+                                        <button width="1" height="44" alignment="left" title="Putt" id="JQ6-hD-vpO">
                                             <gestureRecognizers>
                                                 <longPressGestureRecognizer id="Gyk-Jh-b9j">
                                                     <connections>
