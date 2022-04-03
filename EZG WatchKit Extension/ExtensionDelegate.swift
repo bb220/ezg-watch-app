@@ -1,8 +1,7 @@
 //
 //  ExtensionDelegate.swift
-//  GolfApp WatchKit Extension
+//  EZG WatchKit Extension
 //
-//  Created by Waseem Ali on 22/03/2022.
 //
 
 import WatchKit

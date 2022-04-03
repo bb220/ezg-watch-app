@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07A7956B27EA3C49000EC351 /* GolfApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 07A7956A27EA3C49000EC351 /* GolfApp WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		07A7956B27EA3C49000EC351 /* EZG WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 07A7956A27EA3C49000EC351 /* EZG WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		07A7957127EA3C49000EC351 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A7956F27EA3C49000EC351 /* Interface.storyboard */; };
 		07A7957327EA3C4D000EC351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07A7957227EA3C4D000EC351 /* Assets.xcassets */; };
-		07A7957927EA3C4D000EC351 /* GolfApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 07A7957827EA3C4D000EC351 /* GolfApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		07A7957927EA3C4D000EC351 /* EZG WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 07A7957827EA3C4D000EC351 /* EZG WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		07A7957E27EA3C4D000EC351 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A7957D27EA3C4D000EC351 /* InterfaceController.swift */; };
 		07A7958027EA3C4D000EC351 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A7957F27EA3C4D000EC351 /* ExtensionDelegate.swift */; };
 		07A7958227EA3C4D000EC351 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A7958127EA3C4D000EC351 /* NotificationController.swift */; };
@@ -42,7 +42,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				07A7957927EA3C4D000EC351 /* GolfApp WatchKit Extension.appex in Embed App Extensions */,
+				07A7957927EA3C4D000EC351 /* EZG WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,7 +53,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				07A7956B27EA3C49000EC351 /* GolfApp WatchKit App.app in Embed Watch Content */,
+				07A7956B27EA3C49000EC351 /* EZG WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,11 +61,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		07A7956627EA3C48000EC351 /* GolfApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		07A7956A27EA3C49000EC351 /* GolfApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GolfApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A7956627EA3C48000EC351 /* EZG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A7956A27EA3C49000EC351 /* EZG WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EZG WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A7957027EA3C49000EC351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		07A7957227EA3C4D000EC351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		07A7957827EA3C4D000EC351 /* GolfApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GolfApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A7957827EA3C4D000EC351 /* EZG WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "EZG WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A7957D27EA3C4D000EC351 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		07A7957F27EA3C4D000EC351 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		07A7958127EA3C4D000EC351 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
@@ -89,8 +89,8 @@
 		07A7955F27EA3C48000EC351 = {
 			isa = PBXGroup;
 			children = (
-				07A7956E27EA3C49000EC351 /* GolfApp WatchKit App */,
-				07A7957C27EA3C4D000EC351 /* GolfApp WatchKit Extension */,
+				07A7956E27EA3C49000EC351 /* EZG WatchKit App */,
+				07A7957C27EA3C4D000EC351 /* EZG WatchKit Extension */,
 				07A7956727EA3C48000EC351 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,23 +98,23 @@
 		07A7956727EA3C48000EC351 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				07A7956627EA3C48000EC351 /* GolfApp.app */,
-				07A7956A27EA3C49000EC351 /* GolfApp WatchKit App.app */,
-				07A7957827EA3C4D000EC351 /* GolfApp WatchKit Extension.appex */,
+				07A7956627EA3C48000EC351 /* EZG.app */,
+				07A7956A27EA3C49000EC351 /* EZG WatchKit App.app */,
+				07A7957827EA3C4D000EC351 /* EZG WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		07A7956E27EA3C49000EC351 /* GolfApp WatchKit App */ = {
+		07A7956E27EA3C49000EC351 /* EZG WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
 				07A7956F27EA3C49000EC351 /* Interface.storyboard */,
 				07A7957227EA3C4D000EC351 /* Assets.xcassets */,
 			);
-			path = "GolfApp WatchKit App";
+			path = "EZG WatchKit App";
 			sourceTree = "<group>";
 		};
-		07A7957C27EA3C4D000EC351 /* GolfApp WatchKit Extension */ = {
+		07A7957C27EA3C4D000EC351 /* EZG WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
 				07A7957D27EA3C4D000EC351 /* InterfaceController.swift */,
@@ -125,15 +125,15 @@
 				07A7958727EA3C4F000EC351 /* Info.plist */,
 				07A7958827EA3C4F000EC351 /* PushNotificationPayload.apns */,
 			);
-			path = "GolfApp WatchKit Extension";
+			path = "EZG WatchKit Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		07A7956527EA3C48000EC351 /* GolfApp */ = {
+		07A7956527EA3C48000EC351 /* EZG */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07A7959327EA3C4F000EC351 /* Build configuration list for PBXNativeTarget "GolfApp" */;
+			buildConfigurationList = 07A7959327EA3C4F000EC351 /* Build configuration list for PBXNativeTarget "EZG" */;
 			buildPhases = (
 				07A7956427EA3C48000EC351 /* Resources */,
 				07A7959227EA3C4F000EC351 /* Embed Watch Content */,
@@ -143,14 +143,14 @@
 			dependencies = (
 				07A7956D27EA3C49000EC351 /* PBXTargetDependency */,
 			);
-			name = GolfApp;
+			name = EZG;
 			productName = GolfApp;
-			productReference = 07A7956627EA3C48000EC351 /* GolfApp.app */;
+			productReference = 07A7956627EA3C48000EC351 /* EZG.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		07A7956927EA3C49000EC351 /* GolfApp WatchKit App */ = {
+		07A7956927EA3C49000EC351 /* EZG WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07A7958F27EA3C4F000EC351 /* Build configuration list for PBXNativeTarget "GolfApp WatchKit App" */;
+			buildConfigurationList = 07A7958F27EA3C4F000EC351 /* Build configuration list for PBXNativeTarget "EZG WatchKit App" */;
 			buildPhases = (
 				07A7956827EA3C49000EC351 /* Resources */,
 				07A7958E27EA3C4F000EC351 /* Embed App Extensions */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				07A7957B27EA3C4D000EC351 /* PBXTargetDependency */,
 			);
-			name = "GolfApp WatchKit App";
+			name = "EZG WatchKit App";
 			productName = "GolfApp WatchKit App";
-			productReference = 07A7956A27EA3C49000EC351 /* GolfApp WatchKit App.app */;
+			productReference = 07A7956A27EA3C49000EC351 /* EZG WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		07A7957727EA3C4D000EC351 /* GolfApp WatchKit Extension */ = {
+		07A7957727EA3C4D000EC351 /* EZG WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07A7958B27EA3C4F000EC351 /* Build configuration list for PBXNativeTarget "GolfApp WatchKit Extension" */;
+			buildConfigurationList = 07A7958B27EA3C4F000EC351 /* Build configuration list for PBXNativeTarget "EZG WatchKit Extension" */;
 			buildPhases = (
 				07A7957427EA3C4D000EC351 /* Sources */,
 				07A7957527EA3C4D000EC351 /* Frameworks */,
@@ -177,9 +177,9 @@
 			);
 			dependencies = (
 			);
-			name = "GolfApp WatchKit Extension";
+			name = "EZG WatchKit Extension";
 			productName = "GolfApp WatchKit Extension";
-			productReference = 07A7957827EA3C4D000EC351 /* GolfApp WatchKit Extension.appex */;
+			productReference = 07A7957827EA3C4D000EC351 /* EZG WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
@@ -203,7 +203,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 07A7956327EA3C48000EC351 /* Build configuration list for PBXProject "GolfApp" */;
+			buildConfigurationList = 07A7956327EA3C48000EC351 /* Build configuration list for PBXProject "EZG" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,9 +216,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				07A7956527EA3C48000EC351 /* GolfApp */,
-				07A7956927EA3C49000EC351 /* GolfApp WatchKit App */,
-				07A7957727EA3C4D000EC351 /* GolfApp WatchKit Extension */,
+				07A7956527EA3C48000EC351 /* EZG */,
+				07A7956927EA3C49000EC351 /* EZG WatchKit App */,
+				07A7957727EA3C4D000EC351 /* EZG WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -267,12 +267,12 @@
 /* Begin PBXTargetDependency section */
 		07A7956D27EA3C49000EC351 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 07A7956927EA3C49000EC351 /* GolfApp WatchKit App */;
+			target = 07A7956927EA3C49000EC351 /* EZG WatchKit App */;
 			targetProxy = 07A7956C27EA3C49000EC351 /* PBXContainerItemProxy */;
 		};
 		07A7957B27EA3C4D000EC351 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 07A7957727EA3C4D000EC351 /* GolfApp WatchKit Extension */;
+			target = 07A7957727EA3C4D000EC351 /* EZG WatchKit Extension */;
 			targetProxy = 07A7957A27EA3C4D000EC351 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -340,6 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -394,6 +395,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -411,11 +413,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QQ3M724RHH;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "GolfApp WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "GolfApp WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_FILE = "EZG WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "EZG WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = EZG_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = EZG_WatchKit_Extension.ExtensionDelegate;
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -423,7 +425,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pseudoSoft.GolfApp.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = pseudoSoft.EZG.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -442,11 +444,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QQ3M724RHH;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "GolfApp WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "GolfApp WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_FILE = "EZG WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "EZG WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = EZG_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = EZG_WatchKit_Extension.ExtensionDelegate;
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,7 +456,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pseudoSoft.GolfApp.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = pseudoSoft.EZG.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -475,11 +477,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QQ3M724RHH;
 				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = GolfApp_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "GolfApp WatchKit App";
+				IBSC_MODULE = EZG_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "EZG WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pseudoSoft.GolfApp.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = pseudoSoft.EZG.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -500,11 +502,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QQ3M724RHH;
 				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = GolfApp_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "GolfApp WatchKit App";
+				IBSC_MODULE = EZG_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "EZG WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pseudoSoft.GolfApp.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = pseudoSoft.EZG.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -521,9 +523,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QQ3M724RHH;
+				INFOPLIST_FILE = "";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pseudoSoft.GolfApp;
-				PRODUCT_NAME = GolfApp;
+				PRODUCT_BUNDLE_IDENTIFIER = pseudoSoft.EZG;
+				PRODUCT_NAME = EZG;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -534,9 +537,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QQ3M724RHH;
+				INFOPLIST_FILE = "";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pseudoSoft.GolfApp;
-				PRODUCT_NAME = GolfApp;
+				PRODUCT_BUNDLE_IDENTIFIER = pseudoSoft.EZG;
+				PRODUCT_NAME = EZG;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -544,7 +548,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07A7956327EA3C48000EC351 /* Build configuration list for PBXProject "GolfApp" */ = {
+		07A7956327EA3C48000EC351 /* Build configuration list for PBXProject "EZG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07A7958927EA3C4F000EC351 /* Debug */,
@@ -553,7 +557,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		07A7958B27EA3C4F000EC351 /* Build configuration list for PBXNativeTarget "GolfApp WatchKit Extension" */ = {
+		07A7958B27EA3C4F000EC351 /* Build configuration list for PBXNativeTarget "EZG WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07A7958C27EA3C4F000EC351 /* Debug */,
@@ -562,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		07A7958F27EA3C4F000EC351 /* Build configuration list for PBXNativeTarget "GolfApp WatchKit App" */ = {
+		07A7958F27EA3C4F000EC351 /* Build configuration list for PBXNativeTarget "EZG WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07A7959027EA3C4F000EC351 /* Debug */,
@@ -571,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		07A7959327EA3C4F000EC351 /* Build configuration list for PBXNativeTarget "GolfApp" */ = {
+		07A7959327EA3C4F000EC351 /* Build configuration list for PBXNativeTarget "EZG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07A7959427EA3C4F000EC351 /* Debug */,

@@ -1,8 +1,7 @@
 //
 //  ComplicationController.swift
-//  GolfApp WatchKit Extension
+//  EZG WatchKit Extension
 //
-//  Created by Waseem Ali on 22/03/2022.
 //
 
 import ClockKit
@@ -14,7 +13,7 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
 
     func getComplicationDescriptors(handler: @escaping ([CLKComplicationDescriptor]) -> Void) {
         let descriptors = [
-            CLKComplicationDescriptor(identifier: "complication", displayName: "GolfApp", supportedFamilies: CLKComplicationFamily.allCases)
+            CLKComplicationDescriptor(identifier: "complication", displayName: "EZG", supportedFamilies: CLKComplicationFamily.allCases)
             // Multiple complication support can be added here with more descriptors
         ]
         
