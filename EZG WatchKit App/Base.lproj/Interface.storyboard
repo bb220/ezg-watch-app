@@ -6,10 +6,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="20006"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--EZG-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller fullBounds="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="GolfApp_WatchKit_App" customModuleProvider="target">
+                <controller title="EZG" fullBounds="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="EZG_WatchKit_App" customModuleProvider="target">
                     <items>
                         <group width="1" height="1" alignment="left" layout="vertical" id="XKs-UU-2nA" userLabel="Container">
                             <items>
@@ -100,16 +100,17 @@
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="GolfApp_WatchKit_App" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="EZG_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="563" y="656"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="Niz-AI-uX2">
             <objects>
-                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="GolfApp_WatchKit_App" customModuleProvider="target"/>
+                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="EZG_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="521" y="338"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.12872120740000001" green="0.26873785259999999" blue="0.1878230572" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
