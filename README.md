@@ -78,4 +78,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Author
 
-- Built by [bb220](https://github.com/bb220) and contributors
+Built by [bb220](https://github.com/bb220) and contributors
